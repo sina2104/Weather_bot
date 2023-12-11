@@ -1,0 +1,66 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey
+    - Greetings
+    - Good day
+    - How are you?
+    - Hi there
+    - Hello bot
+    - Greetings, bot!
+    - Good to see you
+
+- intent: weather_temps_tomorrow
+  examples: |
+    - What will be the temperature tomorrow?
+    - Tell me the forecast for tomorrow
+    - What can I expect in terms of temperature tomorrow?
+    - How hot or cold will it be tomorrow?
+    - Forecast for tomorrow's temperatures
+    - What's the expected temperature for tomorrow?
+    - Tomorrow's temperature range
+    - Tell me about tomorrow's weather temperatures
+    - What's the expected weather like for tomorrow?
+    - Describe tomorrow's temperatures
+
+- intent: weather_temps_in_N_days
+  examples: |
+    - What's the weather like in [5](N) days?
+    - Tell me the weather forecast for [3](N) days from now
+    - What can I expect in terms of temperature in [7](N) days?
+    - Describe the weather for [2](N) days from today
+    - What's the temperature going to be like in [4](N) days?
+    - Forecast for the weather in [6](N) days
+    - Can you provide the weather forecast for the next [10](N) days?
+    - How hot or cold will it be in [1](N) day?
+    - Weather prediction for [8](N) days from now
+    - Give me the temperature outlook for [9](N) days ahead
+
+- intent: weather_temps_next_week
+  examples: |
+    - Give me the weather forecast for the next week
+    - What's the temperature trend for the upcoming week?
+    - Tell me about the weather for the next seven days
+    - Describe the temperatures for the next week
+    - What are the expected temperatures for the next week?
+    - Forecast for the upcoming week
+    - Next week's temperature overview
+    - Give me a summary of next week's weather
+    - What can I expect in terms of temperatures for the next seven days?
+    - Describe the weather forecast for the next week
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Bye
+    - See you later
+    - Farewell
+    - Take care
+    - Have a great day
+    - Until next time
+    - Bye-bye
+    - See you
+    - Goodbye, bot!

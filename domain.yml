@@ -1,0 +1,22 @@
+intents:
+  - greet
+  - weather_temps_in_N_days
+  - weather_temps_tomorrow
+  - weather_temps_next_week
+  - goodbye
+
+entities:
+  - N
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! If you have more questions, feel free to ask."
+
+actions:
+- action_weather_temps_in_N_days
+- action_weather_temps_tomorrow
+- action_weather_temps_next_week
+- utter_greet
+- utter_goodbye
